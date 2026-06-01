@@ -1,0 +1,75 @@
+# ── Python bytecode ────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# ── Virtual environments ────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env/
+virtualenv/
+
+# ── Environment / Secrets ──────────────────────
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ── Distribution / Build ───────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+MANIFEST
+
+# ── Testing & Coverage ─────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+
+# ── MyPy / Type stubs ──────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# ── Ruff / Linting ─────────────────────────────
+.ruff_cache/
+
+# ── Database files ─────────────────────────────
+*.sqlite3
+*.db
+
+# ── Alembic (keep migrations, ignore temp) ─────
+alembic/versions/__pycache__/
+
+# ── Jupyter Notebooks ──────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Editor / OS ────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.sw?
+
+# ── Logs ───────────────────────────────────────
+*.log
+logs/
+
+# ── Misc ───────────────────────────────────────
+*.tmp
+*.bak
+instance/

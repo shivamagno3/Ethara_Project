@@ -1,0 +1,28 @@
+# Python Caches
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Node.js Build Caches
+**/node_modules/
+**/dist/
+.npm/
+
+# Database Files
+postgres_data/
+pgdata/
+
+# Version Control & Local Configuration
+.git/
+.gitignore
+.env
+.env.local
+.env.development
+.dockerignore
+docker-compose*.yml
+README.md
